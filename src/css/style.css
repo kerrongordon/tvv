@@ -96,14 +96,14 @@ footer.page-footer {
   width: 300px;
   margin: 0 auto;
   display: block;
-  filter: drop-shadow(0px 6px 9px rgba(0,0,0,0.9));
+  filter: drop-shadow(0px 6px 9px rgba(0, 0, 0, 0.9));
 }
 
 .logo-title {
   color: #fff;
   font-size: 3em;
   margin: 0;
-  filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.9));
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.9));
 }
 
 .card .card-image .card-title {
@@ -132,12 +132,29 @@ footer.page-footer {
 }
 
 .spacer {
-  padding-top: 3em;
-  padding-bottom: 3em;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 footer {
   padding-top: 0 !important;
+}
+
+.boj {
+  position: relative;
+  overflow: hidden;
+}
+
+.shape::after {
+  background: url(../img/shap.png) no-repeat;
+  position: absolute;
+  display: block;
+  content: '';
+  width: 1069px;
+  height: 943px;
+  left: -256px;
+  top: -31px;
+  z-index: -1;
 }
 
 @media only screen and (max-width : 600px) {
