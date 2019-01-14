@@ -157,6 +157,20 @@ footer {
   z-index: -1;
 }
 
+.link-light {
+  color: white;
+}
+
+@media only screen and (max-width : 800px) {
+  .hero .logo {
+    width: 200px;
+  }
+
+  .logo-title {
+    font-size: 2em;
+  }
+}
+
 @media only screen and (max-width : 600px) {
   .hero .logo {
     width: 150px;
